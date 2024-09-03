@@ -19,7 +19,6 @@ public class App {
         System.out.println("Sorted by last name");
         list.sort(new Thing.LastNameComparator());
         list.showList();
-
     }
 
     // adds 20 elements to the list
