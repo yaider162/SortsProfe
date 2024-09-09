@@ -13,12 +13,12 @@ public class App {
         System.out.println("Sorted by name");
         list.sort(new Thing.NameComparator());
         list.showList();
-        System.out.println("Sorted by age");
-        list.sort(new Thing.AgeComparator());
-        list.showList();
-        System.out.println("Sorted by last name");
-        list.sort(new Thing.LastNameComparator());
-        list.showList();
+//        System.out.println("Sorted by age");
+//        list.sort(new Thing.AgeComparator());
+//        list.showList();
+//        System.out.println("Sorted by last name");
+//        list.sort(new Thing.LastNameComparator());
+//        list.showList();
     }
 
     // adds 20 elements to the list
